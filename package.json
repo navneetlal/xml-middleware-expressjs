@@ -1,0 +1,41 @@
+{
+  "name": "@navneetlal/xml-middleware",
+  "version": "0.1.0",
+  "description": "XML middleware for expressjs to provide support for xml with easy setup",
+  "main": "lib/index.js",
+  "types": "lib",
+  "private": false,
+  "scripts": {
+    "clean": "rimraf lib/",
+    "build": "npm run clean && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navneetlal/xml-middleware-expressjs.git"
+  },
+  "keywords": [
+    "xml",
+    "middleware",
+    "express",
+    "json"
+  ],
+  "author": "Navneet Lal Gupta <navneetlalg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navneetlal/xml-middleware-expressjs/issues"
+  },
+  "homepage": "https://github.com/navneetlal/xml-middleware-expressjs#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "@types/xml2js": "^0.4.8",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
