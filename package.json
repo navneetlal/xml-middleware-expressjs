@@ -1,6 +1,6 @@
 {
   "name": "@navneetlal/xml-middleware",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "XML middleware for expressjs to provide support for xml with easy setup",
   "main": "lib/index.js",
   "types": "lib",
