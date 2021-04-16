@@ -1,13 +1,14 @@
 {
   "name": "@navneetlal/xml-middleware",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "description": "XML middleware for expressjs to provide support for xml with easy setup",
   "main": "lib/index.js",
   "types": "lib",
   "private": false,
   "scripts": {
     "clean": "rimraf lib/",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "build:docs": "typedoc --out docs src"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "@types/node": "^14.14.37",
     "@types/xml2js": "^0.4.8",
     "rimraf": "^3.0.2",
+    "typedoc": "^0.20.35",
     "typescript": "^4.2.4"
   },
   "peerDependencies": {

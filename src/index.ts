@@ -25,6 +25,12 @@ declare global {
   }
 }
 
+/**
+ * @function 
+ * @param {ParserOptions} options 
+ * @returns 
+ */
+
 const xmlJsonMiddleware = (options: ParserOptions = {}) => {
   return function middleware(req: Request, res: Response, next: NextFunction) {
     res.sendResponse = (status: number = 200, data: ServerResponse) => {
